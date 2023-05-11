@@ -1,9 +1,9 @@
 ---
 layout: '../../layouts/MarkdownPost.astro'
 title: 'Golang net/http & HTTP Serve 源码分析'
-pubDate: 2035-06-01
+pubDate: 2035-04-01
 description: '很多Go web框架都通过封装 net/http 来实现核心功能，因此学习 net/http 是研究 Gin等框架的基础。'
-author: 'Austin'
+author: ''
 cover:
     url: 'https://pic.lookcos.cn/i/usr/uploads/2022/04/2067928922.png'
     square: 'https://pic.lookcos.cn/i/usr/uploads/2022/04/2067928922.png'
@@ -13,7 +13,7 @@ theme: 'light'
 featured: false
 ---
 
-![Go HTTP Server的大致处理流程|wide](https://pic.lookcos.cn/i/usr/uploads/2023/02/3697706570.png)
+![Go HTTP Server的大致处理流程](https://pic.lookcos.cn/i/usr/uploads/2023/02/3697706570.png)
 
 服务器在收到请求时，首先进入路由 Router，接着路由会根据 request 请求的路径，找到对应的处理器(Handler)，处理器再根据 request 进行处理并构造 response 进行返回。
 

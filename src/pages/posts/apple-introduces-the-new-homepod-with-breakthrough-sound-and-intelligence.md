@@ -1,7 +1,7 @@
 ---
 layout: '../../layouts/MarkdownPost.astro'
 title: 'Apple 推出新款 HomePod，带来突破性音质与智能体验'
-pubDate: 2035-03-25
+pubDate: 2035-06-25
 description: '呈现出类拔萃的音质、增强的 Siri 功能以及安全放心的智能家居体验'
 author: 'Apple Newsroom'
 cover:
@@ -9,7 +9,7 @@ cover:
     square: 'https://www.apple.com.cn/newsroom/images/product/homepod/standard/Apple-HomePod-hero-230118_big.jpg.large_2x.jpg'
     alt: 'cover'
 tags: ["新闻稿", "Apple", "HomePod"] 
-theme: 'light'
+theme: 'dark'
 featured: true
 
 meta:
@@ -33,7 +33,6 @@ keywords: key1, key2, key3
 
 新款 HomePod 的外观由无缝透声织网和背光触控板构成，优美的设计与各种空间相得益彰。HomePod 提供白色与全新的午夜色两种外观，后者由 100% 再生织物构成，配有同色系编织电源线。
 
-![HomePod 设计优美，外观由无缝透声织网和背光触控板构成。|inline](https://www.apple.com.cn/newsroom/images/product/homepod/standard/Apple-HomePod-2-up-230118_big.jpg.large_2x.jpg)
 
 ## 强劲的声学表现
 
