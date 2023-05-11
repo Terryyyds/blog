@@ -1,5 +1,5 @@
 ---
-import { SITE_TITLE, SITE_EMAIL } from "../consts";
+import { SITE_TITLE, SITE_EMAIL, SITE_DESCRIPTION } from "../consts";
 const { theme } = Astro.props;
 import { SITE_NAME } from "../consts";
 const date = new Date();
@@ -12,8 +12,10 @@ const year = date.getFullYear();
       <div class="foot-nav">
         <div class="foot-nav-items">
           <div class="item">
-            <div class="logo">{SITE_TITLE}</div>
+            <div class="title">{SITE_TITLE}</div>
+            <div class="description">{SITE_DESCRIPTION}</div>
             <div class="email">Email: {SITE_EMAIL}</div>
+            
           </div>
 
           <div class="item products">

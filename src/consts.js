@@ -1,5 +1,5 @@
-export const SITE_TITLE = `Blog Room`;
-export const SITE_DESCRIPTION = 'A personal blog.';
+export const SITE_TITLE = `Blogroom`;
+export const SITE_DESCRIPTION = 'A personal blog room of Terry';
 export const SITE_EMAIL = 'deng1193291298@icloud.com'
 export const SITE_NAME = 'blog-terryyyds.vercel.app';
 export const SITE_URL = "https://blog-terryyyds.vercel.app";
