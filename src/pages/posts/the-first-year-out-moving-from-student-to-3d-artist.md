@@ -9,7 +9,7 @@ cover:
     square: 'https://cdn2.unrealengine.com/student-to-3d-artist-header-1920x1080-73d477520f8e.jpg?resize=1&w=1920'
     alt: 'cover'
 tags: ["特写", "影视", "教育", "游戏", "3d", "新闻稿"]
-theme: 'dark'
+theme: 'light'
 featured: true
 ---
 
