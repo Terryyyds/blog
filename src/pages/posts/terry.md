@@ -1,7 +1,7 @@
 ---
 layout: '../../layouts/MarkdownPost.astro'
 title: '用 iPhone 13 mini 拍摄：来自 Terry 的城市烟火与精彩瞬间'
-pubDate: 2035-06-15
+pubDate: 2024-06-15
 description: '利用 iPhone 强大的摄像头，定格生活中的处处精彩'
 author: 'Terry'
 cover:
