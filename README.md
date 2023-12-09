@@ -1,15 +1,12 @@
 ## 👏🏻 Introduction
+
 This is a project that Terry used as a personal blog site.
+
 This is a minimalist, beautiful, responsive blogging program written in Astro.
 
 ## Preview
 
 [https://www.terrylog.cn]((https://www.terrylog.cn))  
-
-
-### Home
-
-![首页](./public/preview/preview_index.png)
 
 ### Syntax highlighting
 
@@ -86,6 +83,7 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro --help` | Get help using the Astro CLI                     |
 
 ## 👀 Want to learn more?
+
 [中文版本说明](./README_CN.md)
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
