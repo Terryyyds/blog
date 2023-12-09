@@ -5,8 +5,8 @@ pubDate: 2023-12-09
 description: 'Terry Deng'
 author: 'Terry'
 cover:
-    url: 'https://s2.loli.net/2023/12/09/FmgzNT3HKr1lUtv.png'
-    square: 'https://s2.loli.net/2023/12/09/FmgzNT3HKr1lUtv.png'
+    url: 'https://s2.loli.net/2023/12/09/M9UHVckQjrYpObs.png'
+    square: 'https://s2.loli.net/2023/12/09/M9UHVckQjrYpObs.png'
     alt: 'cover'
 tags: ["CV"] 
 theme: 'light'
