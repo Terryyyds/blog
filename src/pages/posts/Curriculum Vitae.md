@@ -27,11 +27,7 @@ realterrydeng@gmail.com
 
 https://www.terrylog.cn
 
-Last Updated: Dec 9, 2023
-
-## Bio
-
-As a Business Information Systems master's student with a rich background in user experience / interaction design and coding education, I bring a unique blend of creative and technical expertise. My work on the QiTu App and teaching Swift at Apple highlights my commitment to innovative software solutions and education.  
+Last Updated: Dec 9, 2023 
 
 ## EDUCATION & QUALIFICATIONS
 
@@ -102,4 +98,7 @@ Technical skills – Python; Swift; Javasript; Adobe XD; Figma; Axure RP; Hashca
 
 ## INTERESTS
 Amateur iOS Mac Programming Interest Development;  
-Interested in the latest developments in cyber security, hacking and defence.  
+
+Interested in the latest developments in cyber security, hacking and defence;
+
+likes to play badminton and study handheld game consoles like Steam Deck.
