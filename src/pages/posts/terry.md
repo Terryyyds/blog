@@ -8,7 +8,7 @@ cover:
     url: 'https://s2.loli.net/2023/05/12/TNpJIgbHG4eiMsy.jpg'
     square: 'https://s2.loli.net/2023/05/12/TWyDah5NAGceCir.jpg'
     alt: 'cover'
-tags: ["特写", "标准库"]
+tags: ["特写"]
 theme: 'dark'
 featured: false
 ---
