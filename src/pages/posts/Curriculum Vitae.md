@@ -10,7 +10,7 @@ cover:
     alt: 'cover'
 tags: ["CV"] 
 theme: 'light'
-featured: true
+featured: false
 
 meta:
  - name: author

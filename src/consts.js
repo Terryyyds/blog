@@ -1,7 +1,7 @@
 export const SITE_TITLE = `Terry's Blog`;
-export const SITE_DESCRIPTION = 'A personal blog room of Terry';
-export const SITE_EMAIL = 'deng1193291298@icloud.com'
-export const SITE_NAME = 'blog-terryyyds.vercel.app';
+export const SITE_DESCRIPTION = 'A personal blog zone.';
+export const SITE_EMAIL = 'realterrydeng@gmail.com'
+export const SITE_NAME = 'terrylog.cn';
 export const SITE_URL = "https://blog-terryyyds.vercel.app";
 export const SITE_LANG = "zh-CN";
 
