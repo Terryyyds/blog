@@ -6,7 +6,7 @@ description: 'Terry Deng'
 author: 'Terry'
 cover:
     url: 'https://s2.loli.net/2023/12/09/M9UHVckQjrYpObs.png'
-    square: 'https://s2.loli.net/2025/02/07/O3ljpFatMYne6Jy.png'
+    square: 'https://s2.loli.net/2025/02/07/oJ2KE7YNMZRl4Dk.png'
     alt: 'cover'
 tags: ["CV"] 
 theme: 'light'
