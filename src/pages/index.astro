@@ -25,7 +25,7 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
 
   <section class="everydayfeed">
     <div class="section-content">
-      <h2 class="section-head"News</h2>
+      <h2 class="section-head">News</h2>
         <ul>
           <li>[03/2025] Multiple work featured on Nvidia GTC
           <li>[06/2024] Invited talk at <a href="https://covariant.ai/">Covariant</a></li>
@@ -136,6 +136,15 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
     height: 100%;
     object-fit: cover; /* 确保图片覆盖容器并保持比例 */
     display: block; /* 去除图片底部的空隙 */
+  }
+
+  .ul {
+      display: block;
+      list-style-type: disc;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      padding-inline-start: 40px;
+      unicode-bidi: isolate;
   }
 
 </style>
