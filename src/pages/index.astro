@@ -43,20 +43,6 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
 
   <section class="more-from-newsroom">
     <div class="section-content">
-      <h2 class="section-head">更多文章</h2>
-   
-
-      <ul role="list" class="section-tiles">
-
-        {
-          // tile-2up
-          allPosts.slice(0, 6).map((post) => {
-            return (
-              <MoreTile title={post.frontmatter.title} href={post.url} date={post.frontmatter.pubDate} tags={post.frontmatter.tags} cover={post.frontmatter.cover.square !== "" ? post.frontmatter.cover.square : post.frontmatter.cover.url} />
-            );
-          })
-        }
-      </ul>
       <div class="view-archive-wrapper">
         <a href="/archive" class="cta-primary-light" data-analytics-region="router" data-analytics-title="view archive">阅读历史文章</a>
       </div>
