@@ -13,7 +13,7 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
       <h2 class="about-me-content">yde24@uclive.ac.nz</h2>
       <div class="about-me-content">
         <div class="about-me-text">
-          <p>I am a final-year PhD student at UC San Diego working with Prof. Xiaolong Wang. I have had the opportunity to work with Prof. Deepak Pathak at CMU, as well as Prof. Koushil Sreenath, Pieter Abbeel at UC Berkeley. I build real-world robot systems.</p>
+          <p>I am a final-year PhD student at UC San Diego working with Prof. Xiaolong Wang. I have had the opportunity to work with Prof. Deepak Pathak at CMU, as well as Prof. Koushil Sreenath, Piet[...]</p>
           <p>I love snowboarding 🏂 and scuba diving 🤿 in my free time.</p>
         </div>
         <div class="about-me-photo">
@@ -78,17 +78,25 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
 <style>
   .about-me {
     margin-bottom: 2rem;
+    position: relative;
   }
   .about-me-content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
   }
   .about-me-text {
     flex: 1;
     padding-right: 1rem;
   }
+  .about-me-photo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+  }
   .about-me-photo img {
-    max-width: 150px;
+    height: 100%;
+    max-height: 100%;
     border-radius: 5%;
   }
 </style>
