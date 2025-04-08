@@ -9,12 +9,10 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
 <BaseLayout>
   <section class="about-me">
     <div class="section-content">
-      <h2 class="section-head">Deng Yu</h2>
-      <h2 class="about-me-content">yde24@uclive.ac.nz</h2>
+      <h2 class="section-head">About Me</h2>
       <div class="about-me-content">
         <div class="about-me-text">
-          <p>I am a final-year PhD student at UC San Diego working with Prof. Xiaolong Wang. I have had the opportunity to work with Prof. Deepak Pathak at CMU, as well as Prof. Koushil Sreenath, Piet[...]</p>
-          <p>I love snowboarding 🏂 and scuba diving 🤿 in my free time.</p>
+          <p>Hi, I'm Terry! I'm a software developer and a tech enthusiast. I love sharing my knowledge and experiences through my blog. Here you'll find posts about web development, programming, and much more. Stay tuned!</p>
         </div>
         <div class="about-me-photo">
           <img src="https://s2.loli.net/2023/12/09/BsrxPNblaFwX4IR.jpg" alt="Terry's photo" />
@@ -78,31 +76,17 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
 <style>
   .about-me {
     margin-bottom: 2rem;
-    position: relative;
   }
-  
   .about-me-content {
     display: flex;
-    align-items: flex-start; /* 确保整个区域的顶部对齐 */
+    align-items: center;
   }
-  
   .about-me-text {
     flex: 1;
     padding-right: 1rem;
   }
-  
-  .about-me-photo {
-    position: relative;
-    width: 30%;
-    max-width: 30%;
-    align-self: flex-start; /* 确保图片自我对齐 */
-    padding: 0; /* 去除内边距 */
-  }
-  
   .about-me-photo img {
-    width: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 5%;
+    max-width: 150px;
+    border-radius: 50%;
   }
 </style>
