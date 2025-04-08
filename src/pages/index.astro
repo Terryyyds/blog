@@ -14,7 +14,7 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
           <h2 class="profile-name">Xuxin Cheng</h2>
           <p class="profile-description">
           I am a final-year PhD student at UC San Diego. I have had the opportunity to work with Prof. Deepak Pathak at CMU, as well as Prof. Koushil Sreenath, Pieter Abbeel at UC Berkeley. I build real-world robot systems.
-          <br>I love snowboarding and scuba diving in my free time.
+          <br><br>I love snowboarding and scuba diving in my free time.
           </p>
         </div>
         <div class="profile-photo">
@@ -103,8 +103,11 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
   }
   
   .profile-photo img {
-    height: 100%;
-    width: auto;
+    max-height: 250px; /* 限制最大高度 */
+    max-width: 100%; /* 限制最大宽度 */
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* 确保图片保持比例并覆盖容器 */
     border-radius: 8px;
   }
   
