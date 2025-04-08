@@ -80,25 +80,29 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
     margin-bottom: 2rem;
     position: relative;
   }
+  
   .about-me-content {
     display: flex;
     align-items: flex-start;
   }
+  
   .about-me-text {
     flex: 1;
     padding-right: 1rem;
   }
+  
   .about-me-photo {
     position: relative;
-    padding: 1%;
+    padding: 3%;
     width: 30%;
     max-width: 30%;
-    align-self: flex-start;
+    align-self: flex-start; /* 确保图片自我对齐 */
   }
+  
   .about-me-photo img {
     width: 100%;
     max-width: 100%;
     max-height: 100%;
     border-radius: 5%;
-  }
+}
 </style>
