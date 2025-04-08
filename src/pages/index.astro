@@ -7,15 +7,15 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
 ---
 
 <BaseLayout>
-  <section class="about-me">
+  <section class="profile-section">
     <div class="section-content">
-      <h2 class="section-head">About Me</h2>
-      <div class="about-me-content">
-        <div class="about-me-text">
-          <p>Hi, I'm Terry! I'm a software developer and a tech enthusiast. I love sharing my knowledge and experiences through my blog. Here you'll find posts about web development, programming, and much more. Stay tuned!</p>
+      <div class="profile-content">
+        <div class="profile-info">
+          <h2 class="profile-name">Xuxin Cheng</h2>
+          <p class="profile-description">I am a final-year PhD student at UC San Diego working with Prof. Xiaolong Wang. I have had the opportunity to work with Prof. Deepak Pathak at CMU, as well as Prof. Koushil Sreenath, Pieter Abbeel at UC Berkeley. I build real-world robot systems. I love snowboarding and scuba diving in my free time.</p>
         </div>
-        <div class="about-me-photo">
-          <img src="https://s2.loli.net/2023/12/09/BsrxPNblaFwX4IR.jpg" alt="Terry's photo" />
+        <div class="profile-photo">
+          <img src="/path-to-your-photo.jpg" alt="Xuxin Cheng" />
         </div>
       </div>
     </div>
@@ -74,19 +74,40 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
 </BaseLayout>
 
 <style>
-  .about-me {
-    margin-bottom: 2rem;
+  .profile-section {
+    margin-bottom: 40px;
   }
-  .about-me-content {
+  
+  .profile-content {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
-  .about-me-text {
-    flex: 1;
-    padding-right: 1rem;
+  
+  .profile-info {
+    max-width: 60%;
   }
-  .about-me-photo img {
-    max-width: 150px;
-    border-radius: 5%;
+  
+  .profile-name {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .profile-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .profile-photo img {
+    height: 100%;
+    width: auto;
+    border-radius: 8px;
+  }
+  
+  .profile-photo {
+    flex-shrink: 0;
+    max-width: 30%;
+    height: 100%;
   }
 </style>
