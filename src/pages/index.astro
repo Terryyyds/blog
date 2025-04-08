@@ -103,18 +103,19 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
     line-height: 1.6;
   }
   
-  .profile-photo img {
-    max-height: 250px; /* 限制最大高度 */
-    max-width: 100%; /* 限制最大宽度 */
-    width: 100%;
-    height: auto;
-    object-fit: cover; /* 确保图片保持比例并覆盖容器 */
-    border-radius: 30px;
-  }
-  
   .profile-photo {
     flex-shrink: 0;
-    max-width: 30%;
-    height: 100%;
+    width: 150px; /* 设置固定宽度 */
+    height: 150px; /* 设置固定高度，确保容器是正方形 */
+    overflow: hidden; /* 确保图片不会超出容器 */
+    border-radius: 50%; /* 设置圆形边框 */
   }
+  
+  .profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 确保图片覆盖容器并保持比例 */
+    display: block; /* 去除图片底部的空隙 */
+  }
+
 </style>
