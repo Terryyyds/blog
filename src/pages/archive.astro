@@ -2,44 +2,17 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ArchivePostList from "../layouts/ArchivePostList.astro";
 const allPosts = await Astro.glob("./posts/*.md");
-const tags = ["网络安全", "新闻稿", "虚幻引擎", "源码研究", "CV"];
-const posts = [];
-
-tags.forEach((tag) => {
-  let filteredPosts = allPosts.filter((post) => post.frontmatter.tags.includes(tag));
-  posts.push(filteredPosts);
-});
 ---
-
-
 
 <BaseLayout primaryTitle="archive">
   <section class="archive">
     <div class="section-content section-tag">
       <div class="archive-tag">
-        <h2 class="tag-header">Pinned Project</h2>
+        <h2 class="tag-header">All Posts</h2>
         <div class="tag-post-list">
-          <!-- Replace with the pinned project content -->
-          <ArchivePostList posts={[{
-            frontmatter: {
-              title: "Your Pinned Project Title",
-              description: "Description of the pinned project.",
-              date: "2025-04-08",
-              tags: ["Pinned"]
-            },
-            url: "/posts/your-pinned-project"
-          }]} />
+          {allPosts.length !== 0 ? <ArchivePostList posts={allPosts} /> : <div class="no-posts">暂无文章</div>}
         </div>
       </div>
-      {
-        tags.map((tag, index) => {
-          return (
-            <div class="archive-tag">
-              <div class="tag-post-list">{posts[index].length !== 0 ? <ArchivePostList posts={posts[index]} /> : <div class="no-posts">暂无文章</div>}</div>
-            </div>
-          );
-        })
-      }
     </div>
   </section>
 </BaseLayout>
