@@ -7,6 +7,20 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
 ---
 
 <BaseLayout>
+  <section class="about-me">
+    <div class="section-content">
+      <h2 class="section-head">About Me</h2>
+      <div class="about-me-content">
+        <div class="about-me-text">
+          <p>Hi, I'm Terry! I'm a software developer and a tech enthusiast. I love sharing my knowledge and experiences through my blog. Here you'll find posts about web development, programming, and much more. Stay tuned!</p>
+        </div>
+        <div class="about-me-photo">
+          <img src="/path/to/photo.jpg" alt="Terry's photo" />
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="everydayfeed">
     <div class="section-content">
       <h2 class="section-head">最新文章</h2>
@@ -58,3 +72,21 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
     });
   </script>
 </BaseLayout>
+
+<style>
+  .about-me {
+    margin-bottom: 2rem;
+  }
+  .about-me-content {
+    display: flex;
+    align-items: center;
+  }
+  .about-me-text {
+    flex: 1;
+    padding-right: 1rem;
+  }
+  .about-me-photo img {
+    max-width: 150px;
+    border-radius: 50%;
+  }
+</style>
