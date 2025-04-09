@@ -12,6 +12,7 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
       <div class="profile-content">
         <div class="profile-info">
           <h2 class="profile-name">Deng Yu</h2>
+          <h2 class="profile-email">yde24@uclive.ac.nz</h2>
           <p class="profile-description">
           I am a final-year master's student at University of Canterbury NZ. I have had the opportunity to work with Dr. <a href="https://profiles.canterbury.ac.nz/Anushia-Inthiran">Anushia Inthiran</a> at UC. I focus on information systems and its applications.
           </br></br>I love snowboarding 🏂 and Counter:Strike 🎮 in my free time.
@@ -116,6 +117,12 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-weight: normal;
     font-size: 2rem; 
+  }
+
+  .profile-email {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: lighter
+    font-size: 1rem; 
   }
   
   .profile-description {
