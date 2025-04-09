@@ -28,7 +28,7 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
   <section class="everydayfeed">
     <div class="section-content">
       <h2 class="section-head">News</h2>
-        <ull font-family: math, "SF Pro Text", Arial, sans-serif>
+        <ull role="list" class="news-list">
           <li>[03/2025] Multiple work featured on Nvidia GTC</li>
           <li>[06/2024] Invited talk at <a href="https://covariant.ai/">Covariant</a></li>
           <li>[03/2024] Invited talk at UMich Computer Vision Seminar</li>
@@ -160,8 +160,17 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
     line-height: 1.2;
     unicode-bidi: isolate;
   }
-  .ull li {
+
+  .news-list {
     font-family: math, "SF Pro Text", Arial, sans-serif;
+    font-size: large;
+    font-weight:normal
+  }
+  
+  .news-list li {
+    font-family: math, "SF Pro Text", Arial, sans-serif;
+    font-size: large;
+    font-weight:normal
   }
 
 </style>
