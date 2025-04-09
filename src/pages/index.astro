@@ -28,14 +28,14 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
   <section class="everydayfeed">
     <div class="section-content">
       <h2 class="section-head">News</h2>
-        <ull>
-          <li>[03/2025] Multiple work featured on Nvidia GTC
-          <li>[06/2024] Invited talk at <a href="https://covariant.ai/">Covariant</a></li>
-          <li>[03/2024] Invited talk at UMich Computer Vision Seminar</li>
-          <!-- <li>[03/2024] Invited talk at <a href="https://www.techbeat.net/talk-info?id=854">TechBeat</a></li> -->
-          <li>[02/2024] Invited talk at <a href="https://www.youtube.com/watch?v=ZKWi_BXq0PQ">Mila Robot Learning Seminar</a></li>
-          <!-- <li>[01/2024] Invited talk at <a href="https://www.bilibili.com/video/BV1sF4m137mW/?share_source=copy_web&vd_source=d1854f07b408b9880a4b0901d87a05cf">RL China</a></li> -->
-          <li>[10/2023] Invited talk at <a href="https://real.stanford.edu/">Stanford REAL Lab</a></li>
+        <ull font-family: math, "SF Pro Text", Arial, sans-serif>
+          <lii>[03/2025] Multiple work featured on Nvidia GTC</lii>
+          <lii>[06/2024] Invited talk at <a href="https://covariant.ai/">Covariant</a></lii>
+          <lii>[03/2024] Invited talk at UMich Computer Vision Seminar</lii>
+          <!-- <li>[03/2024] Invited talk at <a href="https://www.techbeat.net/talk-info?id=854">TechBeat</a></lii> -->
+          <lii>[02/2024] Invited talk at <a href="https://www.youtube.com/watch?v=ZKWi_BXq0PQ">Mila Robot Learning Seminar</a></lii>
+          <!-- <li>[01/2024] Invited talk at <a href="https://www.bilibili.com/video/BV1sF4m137mW/?share_source=copy_web&vd_source=d1854f07b408b9880a4b0901d87a05cf">RL China</a></lii> -->
+          <lii>[10/2023] Invited talk at <a href="https://real.stanford.edu/">Stanford REAL Lab</a></lii>
         </ull>
     </div>
   </section>
@@ -149,16 +149,20 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
   }
 
   .ull {
-      font-family: math, "SF Pro Text", Arial, sans-serif;
-      font-size: large;
-      font-weight:normal
-      display: block;
-      list-style-type: disc;
-      margin-block-start: 1em;
-      margin-block-end: 1em;
-      padding-inline-start: 40px;
-      line-height: 1.2;
-      unicode-bidi: isolate;
+    font-family: math, "SF Pro Text", Arial, sans-serif;
+    font-size: large;
+    font-weight:normal
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    line-height: 1.2;
+    unicode-bidi: isolate;
+  }
+
+  .lii {
+    font-family: math, "SF Pro Text", Arial, sans-serif;
   }
 
 </style>
