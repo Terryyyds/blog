@@ -17,6 +17,12 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
           I am a final-year master's student at University of Canterbury NZ. I have had the opportunity to work with Dr. <a href="https://profiles.canterbury.ac.nz/Anushia-Inthiran">Anushia Inthiran</a> at UC. I focus on information systems and its applications.
           </br></br>I love snowboarding and Counter:Strike in my free time.
           </p>
+          <p class="profile-link">
+            <a href="/docs/CV.pdf">CV</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://github.com/chengxuxin">GitHub</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://scholar.google.com/citations?hl=en&user=Z8vhOxYAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="https://twitter.com/xuxin_cheng">Twitter</a>
+          </p>
         </div>
         <div class="profile-photo">
           <img src="https://s2.loli.net/2025/04/08/RvISTKowrcZ5MdX.jpg" alt="Deng Yu" />
@@ -132,7 +138,19 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
     color: #555;
     line-height: 1.6;
   }
-  
+
+  .profile-link {
+    font-family: "Helvetica Neue", "SF Pro Text", Arial, sans-serif;
+    color: #555;
+    line-height: 1.6;
+  } {
+    font-family: "Helvetica Neue", "SF Pro Text", Arial, sans-serif;
+    font-size: smaller;
+    color: #555;
+    line-height: 1.6;
+  }
+
+
   .profile-photo {
     flex-shrink: 0;
     margin-left: 25px;
