@@ -12,11 +12,11 @@ tags: ["Project", "Game", "Web"]
 theme: 'light'
 featured: false
 ---
-# 🧠 Introducing Terry’s 2048 Game: A Mini Web Game Project
+# 🧠 Introducing Terry's 2048 Game: A Mini Web Game Project
 
-I'm excited to share my latest project: a fully functional 2048 game built with React, TypeScript, and Vite. This game is a personal endeavour to recreate the classic 2048 puzzle game, offering a seamless and engaging experience.
+I am excited to share my latest project: a fully functional 2048 game built with React, TypeScript, and Vite. This game is a personal endeavour to recreate the classic 2048 puzzle game, offering a seamless and engaging experience.
 
-## 🎮 What Is 2048?
+## 🎮 What is 2048?
 
 2048 is a popular single-player puzzle game where the objective is to combine numbered tiles on a 4×4 grid to create a tile with the number 2048. Players slide tiles in four directions (up, down, left, right), merging matching numbers to form higher values. The game ends when no more valid moves are possible.
 
