@@ -1,6 +1,6 @@
 ---
 layout: '../../layouts/MarkdownPost.astro'
-title: 'Terry's 2048 Game: Explore Classic Game Reimagined with Modern Web Technologies'
+title: 'Terry’s 2048 Game: Explore Classic Game Reimagined with Modern Web Technologies'
 pubDate: 2025-04-21
 description: 'Built using React, TypeScript, and Vite, this project showcases clean code, responsive design, and smooth animations.'
 author: 'Terry'
@@ -8,7 +8,7 @@ cover:
     url: 'https://cdn2.unrealengine.com/unreal-engine-5-1-media-and-entertainment-header-1920x1080-d314b1b23459.jpg?resize=1&w=1920'
     square: 'https://cdn2.unrealengine.com/unreal-engine-5-1-media-and-entertainment-header-1920x1080-d314b1b23459.jpg?resize=1&w=1920'
     alt: 'cover'
-tags: ["Game", "Web"]
+tags: ["Project", "Game", "Web"]
 theme: 'light'
 featured: false
 ---
