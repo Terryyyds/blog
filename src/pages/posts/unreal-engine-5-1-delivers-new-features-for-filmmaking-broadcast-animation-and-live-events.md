@@ -1,6 +1,6 @@
 ---
 layout: '../../layouts/MarkdownPost.astro'
-title: 'Terry の 2048 Game: Explore Classic Game Reimagined with Modern Web Technologies'
+title: 'Terry の 2048 Game: Explore Classic Game Reimagined with Modern Technologies'
 pubDate: 2025-04-21
 description: 'Built using React, TypeScript, and Vite, this project showcases clean code, responsive design, and smooth animations.'
 author: 'Terry'
