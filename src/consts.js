@@ -1,4 +1,4 @@
-export const SITE_TITLE = `Deng Yu`;
+export const SITE_TITLE = `Deng Yu | Terry's Personal Page`;
 export const SITE_DESCRIPTION = 'A personal blog zone.';
 export const SITE_EMAIL = 'realterrydeng@gmail.com'
 export const SITE_NAME = 'terrylog.cn';
