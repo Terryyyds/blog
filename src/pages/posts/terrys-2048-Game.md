@@ -14,15 +14,21 @@ featured: true
 ---
 # 🧠 Introducing Terry's 2048 Game: A Mini Web Game Project
 
-I am excited to share my latest project: a fully functional 2048 game built with React, TypeScript, and Vite. This game is a personal endeavour to recreate the classic 2048 puzzle game, offering a seamless and engaging experience.
+I am excited to share my latest project: a fully functional 2048 game built with React, TypeScript, and Vite. 
+
+This game is a personal endeavour to recreate the classic 2048 puzzle game, offering a seamless and engaging experience.
 
 ## 🌐 Play the Game
-Experience the game live at <a href="https://2048.terrylog.cn" target="_blank" rel="noopener noreferrer">2048.terrylog.cn</a>. No downloads or installations required—just open the link and start playing!
+Experience the game live at <a href="https://2048.terrylog.cn" target="_blank" rel="noopener noreferrer">2048.terrylog.cn</a>. 
+
+No downloads or installations required—just open the link and start playing!
 
 
 ## 🎮 What is 2048?
 
-2048 is a popular single-player puzzle game where the objective is to combine numbered tiles on a 4×4 grid to create a tile with the number 2048. Players slide tiles in four directions (up, down, left, right), merging matching numbers to form higher values. The game ends when no more valid moves are possible.
+2048 is a popular single-player puzzle game where the objective is to combine numbered tiles on a 4×4 grid to create a tile with the number 2048. 
+
+Players slide tiles in four directions (up, down, left, right), merging matching numbers to form higher values. The game ends when no more valid moves are possible.
 
 
 ## 🔧 How It Works
@@ -50,7 +56,11 @@ The source code is available on <a href="https://github.com/Terryyyds/terrys-204
 
 Building this game was a rewarding challenge. I focused on creating clean and efficient code, ensuring a responsive design, and implementing smooth animations to enhance user experience. This project allowed me to apply and expand my skills in web development.
 
-## �� Connect with Me
+For a deeper understanding of the 2048 game mechanics and development, you might find this video insightful:
+
+<a href="https://www.youtube.com/watch?v=vI0QArPnkUc" target="_blank" rel="noopener noreferrer">How to Build 2048 Game in React</a>
+
+## 🔗 Connect with Me
 
 - <a href="https://terrylog.cn" target="_blank" rel="noopener noreferrer">Personal Website</a>
 - <a href="https://github.com/Terryyyds" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -58,8 +68,5 @@ Building this game was a rewarding challenge. I focused on creating clean and ef
 
 Feel free to reach out for collaborations, feedback, or just to say hello!
 
----
 
-For a deeper understanding of the 2048 game mechanics and development, you might find this video insightful:
 
-<a href="https://www.youtube.com/watch?v=vI0QArPnkUc" target="_blank" rel="noopener noreferrer">How to Build 2048 Game in React</a>
