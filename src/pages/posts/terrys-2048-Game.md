@@ -44,17 +44,17 @@ The game is developed using React, TypeScript, and Vite, ensuring compatibility 
 
 ## 📂 Explore the Code
 
-The source code is available on [GitHub](https://github.com/Terryyyds/terrys-2048-game). Feel free to explore, contribute, or fork the project.
+The source code is available on <a href="https://github.com/Terryyyds/terrys-2048-game" target="_blank" rel="noopener noreferrer">GitHub</a>. Feel free to explore, contribute, or fork the project.
 
 ## 💡 Development Journey
 
 Building this game was a rewarding challenge. I focused on creating clean and efficient code, ensuring a responsive design, and implementing smooth animations to enhance user experience. This project allowed me to apply and expand my skills in web development.
 
-## 🔗 Connect with Me
+## �� Connect with Me
 
-- [Personal Website](https://terrylog.cn)
-- [GitHub](https://github.com/Terryyyds)
-- [LinkedIn](http://linkedin.com/in/yu-deng-396901303)
+- <a href="https://terrylog.cn" target="_blank" rel="noopener noreferrer">Personal Website</a>
+- <a href="https://github.com/Terryyyds" target="_blank" rel="noopener noreferrer">GitHub</a>
+- <a href="http://linkedin.com/in/yu-deng-396901303" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 
 Feel free to reach out for collaborations, feedback, or just to say hello!
 
@@ -62,4 +62,4 @@ Feel free to reach out for collaborations, feedback, or just to say hello!
 
 For a deeper understanding of the 2048 game mechanics and development, you might find this video insightful:
 
-[How to Build 2048 Game in React](https://www.youtube.com/watch?v=vI0QArPnkUc)
+<a href="https://www.youtube.com/watch?v=vI0QArPnkUc" target="_blank" rel="noopener noreferrer">How to Build 2048 Game in React</a>
