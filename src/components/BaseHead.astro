@@ -5,6 +5,7 @@ import "../styles/global.css";
 const { image = "/preview.png", frontmatter } = Astro.props;
 import { SITE_URL, SITE_TITLE, SITE_LANG, SITE_AUTHOR } from "../consts";
 const { pathname } = Astro.url;
+import SpeedInsights from '@vercel/speed-insights/astro';
 
 const title = frontmatter
     ? `${frontmatter.title} - ${SITE_TITLE}`
@@ -79,3 +80,11 @@ const isoNow = date.toISOString();
 
 <!-- Sitemap -->
 <link rel="sitemap" href="/sitemap-index.xml" />
+
+<script is:inline>
+    function speedInsightsBeforeSend(data){
+      console.log("Speed Insights before send", data)
+      return data;
+    }
+</script>
+<SpeedInsights client:load />
