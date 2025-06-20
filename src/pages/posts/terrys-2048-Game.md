@@ -18,8 +18,7 @@ I am excited to share my latest project: a fully functional 2048 game built with
 
 This game is a personal endeavour to recreate the classic 2048 puzzle game, offering a seamless and engaging experience.
 
-## 🌐 Play the Game
-Experience the game live at <a href="https://2048.terrylog.cn" target="_blank" rel="noopener noreferrer">2048.terrylog.cn</a>. 
+You can experience the game live at <a href="https://2048.terrylog.cn" target="_blank" rel="noopener noreferrer">2048.terrylog.cn</a>. 
 
 No downloads or installations required—just open the link and start playing!
 
@@ -30,15 +29,6 @@ No downloads or installations required—just open the link and start playing!
 
 Players slide tiles in four directions (up, down, left, right), merging matching numbers to form higher values. The game ends when no more valid moves are possible.
 
-
-## 🔧 How It Works
-
-The game is developed using React, TypeScript, and Vite, ensuring compatibility across modern browsers. Here's a brief overview of the core components:
-
-- **React**: Manages the user interface and game state.
-- **TypeScript**: Provides static typing for better code quality and maintainability.
-- **Vite**: A fast build tool that enhances development speed and experience.
-
 ## 🚀 Features
 
 - **Responsive Design**: Optimized for both desktop and mobile devices.
@@ -48,7 +38,13 @@ The game is developed using React, TypeScript, and Vite, ensuring compatibility 
 
 ![Game Animation|inline](https://s2.loli.net/2025/04/24/af6cXx1JRUpVs5T.gif)
 
-## 📂 Explore the Code
+## 🔧 How It Works
+
+The game is developed using React, TypeScript, and Vite, ensuring compatibility across modern browsers. Here's a brief overview of the core components:
+
+- **React**: Manages the user interface and game state.
+- **TypeScript**: Provides static typing for better code quality and maintainability.
+- **Vite**: A fast build tool that enhances development speed and experience.
 
 The source code is available on <a href="https://github.com/Terryyyds/terrys-2048-game" target="_blank" rel="noopener noreferrer">GitHub</a>. Feel free to explore, contribute, or fork the project.
 
