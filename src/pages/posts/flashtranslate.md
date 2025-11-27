@@ -5,8 +5,8 @@ pubDate: 2025-11-27
 description: 'React + Vite 框架下的跨平台翻译工具，支持 Claude / Gemini / GPT 系列一键切换与本地密钥管理。'
 author: 'Terry'
 cover:
-    url: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80'
-    square: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&h=900&fit=crop&q=80'
+    url: 'https://s2.loli.net/2025/11/28/jBVqlxg5IH9RePS.jpg'
+    square: 'https://s2.loli.net/2025/11/28/jBVqlxg5IH9RePS.jpg'
     alt: 'Abstract interface with bright strokes suggesting speed and translation'
 tags: ["Project", "AI", "Web", "Translation"]
 theme: 'light'
