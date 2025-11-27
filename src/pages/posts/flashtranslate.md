@@ -5,7 +5,7 @@ pubDate: 2025-11-27
 description: 'React + Vite 框架下的跨平台翻译工具，支持 Claude / Gemini / GPT 系列一键切换与本地密钥管理。'
 author: 'Terry'
 cover:
-    url: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80'
+    url: 'https://s2.loli.net/2025/11/28/OfbeRG7lZo8TV14.jpg'
     square: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&h=900&fit=crop&q=80'
     alt: 'Abstract interface with bright strokes suggesting speed and translation'
 tags: ["Project", "AI", "Web", "Translation"]
@@ -17,9 +17,10 @@ featured: true
 我用 React + TypeScript + Vite 做了一款轻量级的翻译 UI——FlashTranslate。它开箱即用、跨平台，支持 Claude、Gemini、GPT 三家模型自由切换，按一下回车就能完成检测与翻译。
 
 你可以在 <a href="https://flashtranslate.terrylog.cn" target="_blank" rel="noopener noreferrer">flashtranslate.terrylog.cn</a> 体验这款工具。 
-You can experience this work at <a href="https://flashtranslate.terrylog.cn" target="_blank" rel="noopener noreferrer">flashtranslate.terrylog.cn</a>. 
 
-![FlashTranslate interface mock|wide](https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80)
+![FlashTranslate interface mock|inline](https://s2.loli.net/2025/11/28/OfbeRG7lZo8TV14.jpg)
+
+![FlashTranslate interface|wide](https://s2.loli.net/2025/11/28/OfbeRG7lZo8TV14.jpg)
 
 ## ✨ 为什么做这个
 
@@ -34,6 +35,10 @@ You can experience this work at <a href="https://flashtranslate.terrylog.cn" tar
 - **清晰的双栏布局**：原文/译文并排，展示字数统计、检测结果徽章、加载遮罩，以及一键复制译文。  
 - **本地隐私优先**：密钥只存储在浏览器 `localStorage` 中，不会被上传；顶部状态徽章实时显示密钥校验状态。  
 - **键盘/状态反馈**：输入回车触发翻译，顶部状态 pill 标记当前模型与密钥有效性。
+
+![Game Animation|inline](https://s2.loli.net/2025/11/28/iX6vFug9fSrmHya.jpg)
+
+
 
 ## 🛠️ 技术栈与结构
 
