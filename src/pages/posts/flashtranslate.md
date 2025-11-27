@@ -1,11 +1,11 @@
 ---
 layout: '../../layouts/MarkdownPost.astro'
-title: 'FlashTranslate: Lightning-Fast AI Translation UI'
+title: 'FlashTranslate: Lightning-Fast AI Translation Web Application'
 pubDate: 2025-11-27
 description: 'React + Vite 框架下的跨平台翻译工具，支持 Claude / Gemini / GPT 系列一键切换与本地密钥管理。'
 author: 'Terry'
 cover:
-    url: 'https://s2.loli.net/2025/11/28/OfbeRG7lZo8TV14.jpg'
+    url: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80'
     square: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&h=900&fit=crop&q=80'
     alt: 'Abstract interface with bright strokes suggesting speed and translation'
 tags: ["Project", "AI", "Web", "Translation"]
@@ -20,7 +20,6 @@ featured: true
 
 ![FlashTranslate interface mock|inline](https://s2.loli.net/2025/11/28/OfbeRG7lZo8TV14.jpg)
 
-![FlashTranslate interface|wide](https://s2.loli.net/2025/11/28/OfbeRG7lZo8TV14.jpg)
 
 ## ✨ 为什么做这个
 
