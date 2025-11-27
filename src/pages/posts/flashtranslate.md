@@ -5,11 +5,11 @@ pubDate: 2025-11-27
 description: 'React + Vite 框架下的跨平台翻译工具，支持 Claude / Gemini / GPT 系列一键切换与本地密钥管理。'
 author: 'Terry'
 cover:
-    url: 'https://s2.loli.net/2025/11/28/jBVqlxg5IH9RePS.jpg'
-    square: 'https://s2.loli.net/2025/11/28/jBVqlxg5IH9RePS.jpg'
+    url: 'https://s2.loli.net/2025/11/28/O3IPpouwqGX5Rv1.jpg'
+    square: 'https://s2.loli.net/2025/11/28/O3IPpouwqGX5Rv1.jpg'
     alt: 'Abstract interface with bright strokes suggesting speed and translation'
 tags: ["Project", "AI", "Web", "Translation"]
-theme: 'light'
+theme: 'dark'
 featured: true
 ---
 # FlashTranslate：让 AI 翻译回归「一键直达」
