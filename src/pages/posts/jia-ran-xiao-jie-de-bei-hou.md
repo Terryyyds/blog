@@ -44,9 +44,9 @@ featured: false
 
 无论是嘉然还是其四名队友，都在此后近一年的虚拟主播生涯中，陆续赢得了越来越多人的认可。一个魂们（A-SOUL 团粉自称）自愿在各大平台的评论区、聊天栏亦或者是自己的网名中，宣传她们的作品，以求 “引流” 更多的路人转粉。
 
-2021 年 10 月中旬的抖音官方线下活动中，嘉然和队友们通过出色的演出，不仅获得了粉丝群体的喝彩，也收获了无数围观路人的驻足与好评。其独树一帜的人格魅力和出类拔萃的唱跳实力为其赢得了极佳的路人缘。在 10 月 5 日的 B 站直播中，嘉然一个人在短短 1 小时内就获得了 1493 的新增粉丝和 45,826 元的礼物营收。
+![互动数据|inline](https://user-assets.sxlcdn.com/images/910572/FoeIELt7uSZZcdIUKQt4wmK4QWjn.png?imageMogr2/strip/auto-orient/thumbnail/1200x9000/quality/90!/format/png)
 
-![A-SOUL 互动数据|inline](https://user-assets.sxlcdn.com/images/910572/FoeIELt7uSZZcdIUKQt4wmK4QWjn.png?imageMogr2/strip/auto-orient/thumbnail/1200x9000/quality/90!/format/png)
+2021 年 10 月中旬的抖音官方线下活动中，嘉然和队友们通过出色的演出，不仅获得了粉丝群体的喝彩，也收获了无数围观路人的驻足与好评。其独树一帜的人格魅力和出类拔萃的唱跳实力为其赢得了极佳的路人缘。在 10 月 5 日的 B 站直播中，嘉然一个人在短短 1 小时内就获得了 1493 的新增粉丝和 45,826 元的礼物营收。
 
 ![营收情况数据|inline](https://user-assets.sxlcdn.com/images/910572/Fl6u__GpgF3G2o0d5K5wfNhoUofq.jpg?imageMogr2/strip/auto-orient/thumbnail/1200x9000/quality/90!/interlace/1/format/jpeg)
 
@@ -93,9 +93,9 @@ featured: false
 
 ## “乱象”
 
-> 四位观众对 A-SOUL 的评价
 
-“你们这些看虚拟主播的 XX 能不能少引流点？别四处刷你们主子做那些缝合视频了。”
+
+>“你们这些看虚拟主播的 XX 能不能少引流点？别四处刷你们主子做那些缝合视频了。”
 
 好像同传统明星的粉丝文化一样，在承认其内部成分很复杂的同时，绝大多数粉丝也都拒绝 “粉头” 文化，因此没有哪个人能控制或代表其他的粉丝，似乎所有所谓的 “引流” 又皆是个人自发行为。
 
