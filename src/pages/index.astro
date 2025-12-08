@@ -25,17 +25,16 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
             
             <a
                 id="cy-effective-orcid-url"
-                class="underline"
+                class="underline orcid-link"
                 href="https://orcid.org/0009-0002-3688-7793"
                 target="orcid.widget"
-                rel="me noopener noreferrer"
-                style="vertical-align: top">
+                rel="me noopener noreferrer">
                 <img
                     src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
-                    style="width: 1em; margin-inline-start: 0.5em"
+                    class="orcid-icon"
                     alt="ORCID iD icon"
                 />
-                    ORCID
+                ORCID
             </a>&nbsp;&nbsp;|&nbsp;&nbsp;
 
             <a href="https://scholar.google.com/citations?user=pIgLDYkAAAAJ" target="_blank">Google Scholar</a>&nbsp;&nbsp;
@@ -195,6 +194,19 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
   .news-list ul {
     font-family: "Helvetica Neue", "SF Pro Text", Arial, sans-serif;
     font-size: medium;
+  }
+
+  .orcid-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    vertical-align: middle;
+  }
+
+  .orcid-icon {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
   }
 
 </style>
