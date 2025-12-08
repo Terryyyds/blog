@@ -36,8 +36,6 @@ featured: false
 
 在嘉然 2020 年 12 月 12 日的首播，起初的弹幕和留言中充斥着各类破坏直播环境的言语，没有人能坚信这场直播能完整结束。嘉然却就在这种环境之中，非但完成了 20 首宅舞连跳，并使得整场出道表演圆满结束。此后，很多此前的黑粉纷纷表示 “投降”，由此形成了嘉然粉丝的基本盘。
 
-![乐华与投资方关系示意|inline](https://user-assets.sxlcdn.com/images/910572/FvF-7rKL8wzRQ6OhXwtebKtXmmVE.png?imageMogr2/strip/auto-orient/thumbnail/1200x9000/format/png)
-
 乐华受到字节跳动、阿里等集团的大力投资，其旗下打造的艺人有韩庚、王一博、孟美岐等。
 
 ## 蒸蒸日上
@@ -63,7 +61,7 @@ featured: false
 
 这些文字正是无数背井离乡的打工人写照，粉丝与对嘉然的喜爱融合在了一起。“破防了”，屏幕被这三个字刷屏，虚拟主播的直播中上演了真情实意的共鸣。正如一位叫 “D14vo10” 的用户在评论区写道：“vtb 不会哭，因为模型没有这个功能”，这句话得到了 1.8 万多的点赞。
 
-![12月30日 嘉然直播间|inline](https://user-assets.sxlcdn.com/images/910572/Fsjums7QcWnPn9U2zWiViNaz1iSd.png?imageMogr2/strip/auto-orient/thumbnail/1200x9000/quality/90!/format/png)
+![12月30日 嘉然直播间|wide](https://user-assets.sxlcdn.com/images/910572/Fsjums7QcWnPn9U2zWiViNaz1iSd.png?imageMogr2/strip/auto-orient/thumbnail/1200x9000/quality/90!/format/png)
 
 ## 百花齐放
 
