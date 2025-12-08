@@ -12,12 +12,11 @@ tags: ["Report", "Vtuber", "Culture"]
 theme: 'light'
 featured: false
 ---
-# 嘉然小姐的背后，万亿的虚拟蛋糕
 
-> 团队项目文章，转载自 http://sandau.mysxl.cn 。
+> 团队项目作品，原文见 http://sandau.mysxl.cn 。
 
 
-“我好想做嘉然小姐的狗啊。”
+#### “我好想做嘉然小姐的狗啊。”
 
 这句令旁人匪夷所思的话语，在这一年之中几乎火遍了半个互联网。
 
