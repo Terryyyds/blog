@@ -47,6 +47,7 @@ featured: false
 2021 年 10 月中旬的抖音官方线下活动中，嘉然和队友们通过出色的演出，不仅获得了粉丝群体的喝彩，也收获了无数围观路人的驻足与好评。其独树一帜的人格魅力和出类拔萃的唱跳实力为其赢得了极佳的路人缘。在 10 月 5 日的 B 站直播中，嘉然一个人在短短 1 小时内就获得了 1493 的新增粉丝和 45,826 元的礼物营收。
 
 ![A-SOUL 互动数据|inline](https://user-assets.sxlcdn.com/images/910572/FoeIELt7uSZZcdIUKQt4wmK4QWjn.png?imageMogr2/strip/auto-orient/thumbnail/1200x9000/quality/90!/format/png)
+
 ![营收情况数据|inline](https://user-assets.sxlcdn.com/images/910572/Fl6u__GpgF3G2o0d5K5wfNhoUofq.jpg?imageMogr2/strip/auto-orient/thumbnail/1200x9000/quality/90!/interlace/1/format/jpeg)
 
 其中，有场直播令人印象深刻。2020 年 12 月 30 日的直播中，一位名叫 “斯大林的拖拉机” 的普通粉丝的日记小作文被选中。其中记述了自己作为工厂一名普通工程师、平凡一天中的琐碎小事：
