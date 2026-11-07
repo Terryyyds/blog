@@ -227,4 +227,56 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
     display: inline-block;
   }
 
+  @media only screen and (max-width: 734px) {
+    html, body {
+      min-width: 320px;
+    }
+
+    .profile-content {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 80px;
+      grid-template-areas:
+        "name photo"
+        "email photo"
+        "description description"
+        "links links";
+      column-gap: 16px;
+      row-gap: 8px;
+      align-items: center;
+    }
+
+    .profile-info {
+      display: contents;
+    }
+
+    .profile-name {
+      grid-area: name;
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+    .profile-email {
+      grid-area: email;
+      margin: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .profile-description {
+      grid-area: description;
+      margin: 16px 0 0;
+    }
+
+    .profile-link {
+      grid-area: links;
+      margin: 8px 0 0;
+    }
+
+    .profile-photo {
+      grid-area: photo;
+      margin-left: 0;
+      width: 80px;
+      height: 80px;
+    }
+  }
+
 </style>
