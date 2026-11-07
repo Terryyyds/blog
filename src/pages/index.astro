@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Tile from "../layouts/Tile.astro";
 import MoreTile from "../layouts/MoreTile.astro";
+import { SITE_EMAIL } from "../consts";
 const allPosts = await Astro.glob("../pages/posts/*.md");
 allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontmatter.pubDate));
 ---
@@ -11,10 +12,10 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
     <div class="section-content">
       <div class="profile-content">
         <div class="profile-info">
-          <h2 class="profile-name">Deng Yu</h2>
-          <h2 class="profile-email">yde24@uclive.ac.nz</h2>
+          <h2 class="profile-name">Yu (Terry) Deng</h2>
+          <h2 class="profile-email">{SITE_EMAIL}</h2>
           <p class="profile-description">
-          I am a PhD student in Management Science and Engineering at Xi’an Jiaotong University, which I joined in September 2026. Previously, I completed my master’s studies in Business Information Systems at the University of Canterbury, New Zealand, where I had the opportunity to work with Dr. <a href="https://profiles.canterbury.ac.nz/Anushia-Inthiran">Anushia Inthiran</a>. My research interests lie in information systems and their applications.
+          I am a PhD student in Management Science and Engineering at Xi’an Jiaotong University, focusing on machine learning. I joined in September 2026. My research interests span information systems, cybersecurity, and AI security, including large language model security and Zero Trust Architecture. Previously, I completed my master’s studies in Business Information Systems at the University of Canterbury, New Zealand, where I worked with Dr. <a href="https://profiles.canterbury.ac.nz/Anushia-Inthiran">Anushia Inthiran</a>.
           <br />In my free time, I enjoy snowboarding and playing Counter-Strike.
           </p>
           <p class="profile-link">
@@ -22,13 +23,15 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
             <a href="https://github.com/Terryyyds/blog/raw/main/src/pages/CV.pdf" target="_blank">CV</a>&nbsp;&nbsp;|&nbsp;&nbsp;
 -->
             
-            <a class="social-link" href="http://linkedin.com/in/yu-deng-396901303" target="_blank">     
+            <a class="social-link" href="https://terryyyds.github.io/AcademicPage/" target="_blank" rel="noopener noreferrer">Academic Profile</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+
+            <a class="social-link" href="https://www.linkedin.com/in/yu-deng-396901303/" target="_blank">
             <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
                 class="social-icon"
                 alt="LinkedIn icon"
               />
-              Linkedin
+              LinkedIn
             </a>&nbsp;&nbsp;|&nbsp;&nbsp;
 
             <a
@@ -56,7 +59,7 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
           </p>
         </div>
         <div class="profile-photo">
-          <img src="https://s2.loli.net/2025/12/09/LVogGmbTOskxQNH.jpg" alt="Deng Yu" />
+          <img src="https://s2.loli.net/2025/12/09/LVogGmbTOskxQNH.jpg" alt="Yu (Terry) Deng" />
         </div>
       </div>
     </div>
@@ -67,6 +70,9 @@ allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontma
       <h2 class="section-head">News</h2>
         <ul role="list" class="news-list">
           <li>[09/2026] Joined Xi’an Jiaotong University as a PhD student in Management Science and Engineering.</li>
+          <li>[07/2026] Presented our paper on Zero Trust Architecture and SME security readiness at PACIS 2026 in Jakarta, Indonesia.</li>
+          <li>[01/2026] Earned the Splunk Core Certified Power User certification.</li>
+          <li>[11/2025] Co-authored MILE, a preprint on data collection for dexterous robotic manipulation.</li>
           <li>[08/2025] Joined Cloudfall (Shanghai) Ltd as a security analyst.</li>
           <li>[07/2025] Graduated from UC with multiple First in Class Academic Performance Prizes!</li>
           <li>[01/2025] Achieved NISP-II & CISP certificates.</li>

@@ -1,6 +1,6 @@
-export const SITE_TITLE = `Deng Yu | Terry's Personal Page`;
-export const SITE_DESCRIPTION = 'A personal blog zone.';
-export const SITE_EMAIL = 'realterrydeng@gmail.com'
+export const SITE_TITLE = `Yu (Terry) Deng | Personal Website`;
+export const SITE_DESCRIPTION = 'Research, projects, and notes on machine learning, information systems, and cybersecurity.';
+export const SITE_EMAIL = 'yu.deng@stu.xjtu.edu.cn'
 export const SITE_NAME = 'terrylog.cn';
 export const SITE_URL = "https://blog-terryyyds.vercel.app";
 export const SITE_LANG = "zh-CN";
